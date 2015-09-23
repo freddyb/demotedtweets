@@ -1,0 +1,20 @@
+{
+    "name": "Demoted Tweets",
+    "description": "Hides Promoted Tweets",
+    "version": "0.9.0",
+    "developer": {
+        "name": "Frederik Braun"
+    },
+    "package_path": "dist/package.zip",
+    "icons": {
+        "16": "/src/icons/icon16.png",
+        "30": "/src/icons/icon30.png",
+        "32": "/src/icons/icon32.png",
+        "48": "/src/icons/icon48.png",
+        "60": "/src/icons/icon60.png",
+        "64": "/src/icons/icon64.png",
+        "90": "/src/icons/icon90.png",
+        "120": "/src/icons/icon120.png",
+        "128": "/src/icons/icon128.png"
+    }
+}

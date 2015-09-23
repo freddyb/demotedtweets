@@ -1,0 +1,22 @@
+{
+	"name": "Demoted Tweets",
+	"description": "Hides Promoted Tweets",
+	"manifest_version": 2,
+	"version": "0.9.0",
+	"author": "Frederik Braun",
+	"content_scripts": [{
+		"matches": [
+			"https://mobile.twitter.com/"
+		],
+		"js": [
+			"addon.js"
+		]
+	}],
+	"icons": {
+        "16": "icons/icon16.png",
+        "30": "icons/icon30.png",
+        "48": "icons/icon48.png",
+        "60": "icons/icon60.png",
+        "128": "icons/icon128.png"
+	}
+}
