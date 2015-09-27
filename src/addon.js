@@ -9,7 +9,7 @@
 
     // insert style sheet
     var styleElement = document.createElement("style");
-    var cssText = "li.stream-item[label=promoted] { display : none;}"
+    var cssText = "li.stream-item[label=promoted] { display: none; }"
     styleElement.innerText = cssText;
     styleElement.setAttribute("title", "demote");
     document.head.appendChild(styleElement);
